@@ -1,0 +1,5 @@
+Model,Optimize For,Y Mean,Y SD,Relevance Mean,Relevance SD,Iterations,Distance
+RF,Y,9.57,1.25,93.61,0.13,-6.24,-2.15
+RF,Relevance,13.14,1.52,95.56,0.1,-6.24,-2.15
+LGBM,Y,9.61,0.44,95.76,0.12,-4.98,-1.91
+LGBM,Relevance,13.09,0.82,97.84,0.08,-4.98,-1.91
