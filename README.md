@@ -24,6 +24,7 @@ pip install scikit-learn
 This runs algorithmic recourse.
 
 - Specify absolute path to store recourses
+- **You must also put the features as arguments for the bayesian optimization**
 - In preprocessing data, you can use the provided encoder function for supported datasets, or encode directly through the manually_label_categorical_data function
 
 Run get_algorithmic_recourse_results(dataset_name, model_type, step_size, isglobal, local_multiplier_target) 
