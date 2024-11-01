@@ -22,7 +22,7 @@ def read_spec_file(fn):
 def load_yname(name):
     return read_spec_file(SPEC_FILE_PATH_FORMAT.format(name))
 
-def get_x_y_matrices(ds, yname):
+def get_x_y_matrices(ds, yname): 
     y_col = ds[yname]
     y_col = np.array(y_col)
     y_col = np.squeeze(y_col)
