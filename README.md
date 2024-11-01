@@ -5,7 +5,7 @@ This code was used to research how "relevance" affects algorithmic recourse. The
 Results show that relevance contributes recourses comparable to well-known baselines, with greater efficiency and lower relative costs.
 
 ## Setup
-Note: only works on x86_64 versions of python. This is can be bypassed by using a conda. 
+Note: only works on x86_64 versions of python. You can use conda on MacOS to mitigate this. 
 
 ```bash
 # required for IRonPy which generates the relevance functions
