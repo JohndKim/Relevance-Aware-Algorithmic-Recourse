@@ -2,7 +2,7 @@
 
 This code was used to research how "relevance" affects algorithmic recourse. There are many regression based datasets contained, and the ones specifically used in the paper are calHousing, debutenizer, deltaAilerons, elecLen1, housingBoston, insurance, kinematics32fh, kinematics8fh, mortgage, space_ga, sulfur, treasury, triazines, wages, wine.
 
-Results show that relevance contributes recourses comparable to well-known baselines, with greater efficiency and lower relative costs.
+Results demonstrate that our approach is comparable to well-known baselines while achieving greater efficiency, measured by shorter computation times and fewer iterations, and lower relative costs, indicated by more minor modifications required to achieve desired outcomes. 
 
 ## Setup
 Note: only works on x86_64 versions of python. You can use conda on MacOS to mitigate this. 
