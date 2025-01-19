@@ -5,7 +5,7 @@ This code was used to research how "relevance" affects algorithmic recourse. The
 Results demonstrate that our approach is comparable to well-known baselines while achieving greater efficiency, measured by shorter computation times and fewer iterations, and lower relative costs, indicated by more minor modifications required to achieve desired outcomes. 
 
 ## Setup
-Note: only works on x86_64 versions of python. You can use conda on MacOS to mitigate this. 
+Note: only works on x86_64 versions of python. User can use conda on MacOS to mitigate this. 
 
 ```bash
 # required for IRonPy which generates the relevance functions
@@ -24,8 +24,8 @@ pip install scikit-learn
 This runs algorithmic recourse.
 
 - Specify absolute path to store recourses
-- **You must also put the features as arguments for the bayesian optimization**
-- In preprocessing data, you can use the provided encoder function for supported datasets, or encode directly through the manually_label_categorical_data function
+- **User must also put the features as arguments for the bayesian optimization**
+- In preprocessing data, user can use the provided encoder function for supported datasets, or encode directly through the manually_label_categorical_data function
 
 Run get_algorithmic_recourse_results(dataset_name, model_type, step_size, isglobal, local_multiplier_target) 
 
