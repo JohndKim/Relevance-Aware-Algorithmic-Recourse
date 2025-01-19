@@ -1,6 +1,6 @@
 # Relevance Aware Algorithmic Recourse (RAAR)
 
-This code was used to research how "relevance" affects algorithmic recourse. There are many regression based datasets contained, and the ones specifically used in the paper are calHousing, debutenizer, deltaAilerons, elecLen1, housingBoston, insurance, kinematics32fh, kinematics8fh, mortgage, space_ga, sulfur, treasury, triazines, wages, wine.
+This code was developed and applied to research how "relevance" affects algorithmic recourse. There are many regression based datasets contained, and the ones specifically used in the paper are calHousing, debutenizer, deltaAilerons, elecLen1, housingBoston, insurance, kinematics32fh, kinematics8fh, mortgage, space_ga, sulfur, treasury, triazines, wages, wine.
 
 Results demonstrate that our approach is comparable to well-known baselines while achieving greater efficiency, measured by shorter computation times and fewer iterations, and lower relative costs, indicated by more minor modifications required to achieve desired outcomes. 
 
