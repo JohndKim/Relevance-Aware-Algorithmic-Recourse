@@ -5,7 +5,7 @@ This code was developed and applied to research how "relevance" affects algorith
 Results demonstrate that our approach is comparable to well-known baselines while achieving greater efficiency, measured by shorter computation times and fewer iterations, and lower relative costs, indicated by more minor modifications required to achieve desired outcomes. 
 
 ## Setup
-Note: only works on x86_64 versions of python. User can use conda on MacOS to mitigate this. 
+Note: only works on x86_64 versions of python due to library dependencies. 
 
 ```bash
 # required for IRonPy which generates the relevance functions
